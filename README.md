@@ -1,2 +1,1 @@
-# jank_free_progress_indicator
-A jank-free web progress indicator for Flutter.
+A jank-free web progress indicator.

@@ -1,0 +1,16 @@
+name: jank_free_progress_indicator
+description: A jank-free web progress indicator.
+version: 0.0.1
+repository: https://github.com/adrianjagielak/jank_free_progress_indicator
+
+environment:
+  sdk: ^3.0.0
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.24.0
