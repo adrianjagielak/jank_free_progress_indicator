@@ -12,6 +12,10 @@ blocked.
 * **Jank-Free Animations**: The usual Flutter `CircularProgressIndicator`
   or `LinearProgressIndicator` can freeze if the Flutter web engine is blocked, since their
   animations rely on the same rendering pipeline.
+* **Useful on Web**: In Flutter Web, you can’t easily spin up new isolates to handle large
+  synchronous tasks. If your app’s main thread becomes blocked, regular progress indicators
+  will freeze. These jank-free indicators continue animating by using GPU transforms, providing
+  a better user experience even during heavy computations.
 * **Pure CSS (GPU-Accelerated)**: By using CSS `transform: rotate(...)`
   or `transform: translate/scale`, we offload the animation to the GPU. This helps maintain smooth
   motion independent of Flutter’s layout/painting cycle.

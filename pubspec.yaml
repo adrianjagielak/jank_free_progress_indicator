@@ -1,6 +1,6 @@
 name: jank_free_progress_indicator
 description: A jank-free progress indicator on the web. Offloads animation to the GPU, continuing animating smoothly, even if the main thread hangs.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/adrianjagielak/jank_free_progress_indicator
 
 environment:
