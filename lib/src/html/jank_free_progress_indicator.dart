@@ -2,7 +2,7 @@ import 'dart:html' as html;
 import 'dart:ui_web' as ui;
 import 'dart:math' as math;
 
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 import 'utils.dart';
 

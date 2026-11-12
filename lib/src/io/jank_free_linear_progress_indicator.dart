@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 /// A widget that displays a jank-free linear progress indicator on the web,
 /// fallback to [LinearProgressIndicator] on other platforms.

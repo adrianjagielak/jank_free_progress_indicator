@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 
 /// A widget that displays a jank-free circular progress indicator on the web,
 /// fallback to [CircularProgressIndicator] on other platforms.

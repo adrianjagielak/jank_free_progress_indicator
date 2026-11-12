@@ -31,7 +31,7 @@ blocked.
 
 ```yaml
 dependencies:
-  jank_free_progress_indicator: ^1.0.0
+  jank_free_progress_indicator: ^2.0.0
 ```
 
 2. Import the package in your Dart code:
@@ -45,7 +45,7 @@ import 'package:jank_free_progress_indicator/jank_free_progress_indicator.dart';
 ### JankFreeProgressIndicator (Circular)
 
 ```dart
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:jank_free_progress_indicator/jank_free_progress_indicator.dart';
 
 class MyHomePage extends StatelessWidget {
@@ -70,7 +70,7 @@ class MyHomePage extends StatelessWidget {
 ### JankFreeLinearProgressIndicator (Linear)
 
 ```dart
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:jank_free_progress_indicator/jank_free_progress_indicator.dart';
 
 class MyLinearIndicatorDemo extends StatelessWidget {
